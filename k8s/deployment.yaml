@@ -51,7 +51,7 @@ metadata:
     alb.ingress.kubernetes.io/ssl-redirect: "443"
     # 경로 재설정
     # Nginx Ingress Controller 사용시: nginx.ingress.kubernetes.io/rewrite-target: /
-    alb.ingress.kubernetes.io/transforms.nginx-service: >
+    alb.ingress.kubernetes.io/transforms.nginx-svc: >
       [
         {
           "type": "url-rewrite",

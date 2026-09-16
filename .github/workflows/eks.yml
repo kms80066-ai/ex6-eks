@@ -24,7 +24,7 @@ jobs:
     - name: Docker 이미지 빌드 및 푸쉬
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./nginx
         file: ./nginx/Dockerfile  # Dockerfile의 경로 및 파일명
         push: true
         tags: minseung12/nginx:${{ github.sha }} # (중요) 이미지명 정의, 태그 자동생성

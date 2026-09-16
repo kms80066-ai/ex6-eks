@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: minseung12/nginx:73e7f5c91636ae0289139b2c03ab410cb9ce57bb
+        image: minseung12/nginx:bfbd9a320e7c82fe57b996ef0adbcd11fdc03ec3
         ports:
         - containerPort: 80
 ---
